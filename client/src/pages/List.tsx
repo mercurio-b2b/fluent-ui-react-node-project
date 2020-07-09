@@ -1,7 +1,9 @@
 import * as React from 'react';
-import { Link } from 'office-ui-fabric-react/lib/Link';
 import { Image, ImageFit } from 'office-ui-fabric-react/lib/Image';
 import { DetailsList, IColumn } from 'office-ui-fabric-react/lib/DetailsList';
+import { initializeIcons } from 'office-ui-fabric-react/lib/Icons';
+
+initializeIcons();
 
 export interface IDetailsListCustomColumnsExampleState {
   sortedItems: [];
